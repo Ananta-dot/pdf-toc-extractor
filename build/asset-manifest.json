@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d75ed73.css",
+    "main.js": "/static/js/main.bc028e03.js",
+    "static/js/453.77e09137.chunk.js": "/static/js/453.77e09137.chunk.js",
+    "static/media/upload_ss2.png": "/static/media/upload_ss2.39eac2d4493218e55390.png",
+    "static/media/upload_ss.png": "/static/media/upload_ss.0cbd80e87f5e9f745c3b.png",
+    "static/media/upload_ss1.png": "/static/media/upload_ss1.6ee0eb1bfa3f699eadd4.png",
+    "static/media/sonar-logo.png": "/static/media/sonar-logo.b76cf170262dc7678aa2.png",
+    "index.html": "/index.html",
+    "main.4d75ed73.css.map": "/static/css/main.4d75ed73.css.map",
+    "main.bc028e03.js.map": "/static/js/main.bc028e03.js.map",
+    "453.77e09137.chunk.js.map": "/static/js/453.77e09137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d75ed73.css",
+    "static/js/main.bc028e03.js"
+  ]
+}
