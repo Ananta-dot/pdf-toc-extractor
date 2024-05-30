@@ -1,0 +1,93 @@
+.result-page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.menu-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* Align logo to the left */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    cursor: pointer;
+}
+
+.homepage-logo {
+    max-width: 150px;
+}
+
+.result-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.result-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.result-table th, .result-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.result-table th {
+    background-color: #00796b;
+    color: white;
+    font-weight: bold;
+}
+
+.result-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.result-table tr:hover {
+    background-color: #ddd;
+}
+
+.back-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #005f9e;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

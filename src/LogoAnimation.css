@@ -1,0 +1,22 @@
+.logo-animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    opacity: 1;
+    animation: fadeOut 1s forwards; /* 3 seconds to fade out */
+}
+
+.logo-animation img {
+    max-width: 50%;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
